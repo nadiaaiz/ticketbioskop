@@ -48,5 +48,8 @@ class PageBloc extends Bloc<PageEvent, PageState> {
     else if (event is GoToSuccessPage) {
       yield OnSuccessPage(event.ticket, event.transaction);
     }
+    else if (event is GoToTicketDetailPage) {
+      yield onTicketDetailPage(event.ticket);
+    }
   }
 }

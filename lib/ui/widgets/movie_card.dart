@@ -31,7 +31,7 @@ class MovieCard extends StatelessWidget {
               gradient: LinearGradient(
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
-                  colors: [
+                  color: [
                     Colors.black.withOpacity(0.61),
                     Colors.black.withOpacity(0)
                   ])),

@@ -59,7 +59,7 @@ class MovieDetailPage extends StatelessWidget {
                                           gradient: LinearGradient(
                                               begin: Alignment(0, 1),
                                               end: Alignment(0, 0.06),
-                                              colors: [
+                                              color: [
                                                 Colors.white,
                                                 Colors.white.withOpacity(0)
                                               ])),

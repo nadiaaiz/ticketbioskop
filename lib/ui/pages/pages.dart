@@ -16,6 +16,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:random_string/random_string.dart';
 import 'package:tiketbioskop/extensions/extensions.dart';
 
+
 part 'sign_in_page.dart';
 part 'wrapper.dart';
 part 'main_page.dart';
@@ -29,3 +30,4 @@ part 'select_schedule_page.dart';
 part 'select_seat_page.dart';
 part 'checkout_page.dart';
 part 'success_page.dart';
+part 'ticket_page.dart';
